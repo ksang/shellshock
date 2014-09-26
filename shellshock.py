@@ -50,7 +50,7 @@ class ArgParser:
         # Parse arguments from cli
         import argparse
         from argparse import RawTextHelpFormatter
-        __parser = argparse.ArgumentParser(description= 'CVE: 2014-6271 PoC Tool by YingZhi', 
+        __parser = argparse.ArgumentParser(description= 'CVE: 2014-6271 PoC Tool', 
                                            formatter_class = RawTextHelpFormatter)
         __parser.add_argument('-u', 
                               dest = 'url', 
