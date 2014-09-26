@@ -83,7 +83,7 @@ class ArgParser:
 
         return vars(__parser.parse_args())
 
-class Shellshock():
+class ShellShock():
 
     def __init__(self, args):
         self._args = args
@@ -157,7 +157,7 @@ if __name__ == '__main__':
     else:
         args = arg_parser.parse()
     try:
-        shellShock = Shellshock(args).run()
+        shellShock = ShellShock(args).run()
     except KeyboardInterrupt:
         print '\nOperation aborted.'
         sys.exit()
